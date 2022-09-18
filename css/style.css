@@ -1093,7 +1093,6 @@ section.news {
   left: 0;
   z-index: 1;
   overflow: scroll;
-  background-attachment: fixed;
 }
 @media (max-width: 767px) {
   .faq {
