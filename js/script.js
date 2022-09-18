@@ -30,9 +30,6 @@ $(function () {
     width: 400,
     loop: true,
     loopedSlides: 6,
-    autoplay: {
-      delay: 2000,
-    },
     // slidesPerView: 1,
 
     pagination: {
