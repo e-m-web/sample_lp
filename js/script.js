@@ -25,16 +25,16 @@ $(function () {
 
   //====Swiper
   var mySwiper = new Swiper(".swiper-container", {
-    speed: 600,
+    speed: 400,
     spaceBetween: 36,
     width: 400,
     loop: true,
     loopedSlides: 6,
-    slidesPerView: 1,
-    // navigation: {
-    //   nextEl: ".swiper-button-next",
-    //   prevEl: ".swiper-button-prev",
-    // },
+    autoplay: {
+      delay: 2000,
+    },
+    // slidesPerView: 1,
+
     pagination: {
       el: ".swiper-pagination",
       type: "bullets",
@@ -42,10 +42,9 @@ $(function () {
     },
     breakpoints: {
       768: {
-        slidesPerView: 2,
-        spaceBetween: 20,
-        with:300,
-
+        // slidesPerView: 1,
+        spaceBetween: 24,
+        width: 274,
       },
     },
   });
