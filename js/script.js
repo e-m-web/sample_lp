@@ -40,8 +40,8 @@ $(function () {
     breakpoints: {
       768: {
         // slidesPerView: 1,
-        spaceBetween: 24,
-        width: 274,
+        spaceBetween: 20,
+        width: 300,
       },
     },
   });
